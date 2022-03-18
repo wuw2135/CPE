@@ -7,9 +7,7 @@ int main()
     cin >> a;
     for(int z=1;z<=a;z++){
         cin >> tot >> deff;
-        int b = (tot + deff)/2 , c = abs(tot - deff)/2; 
-        if(tot != b + c || deff != b - c || b < 0 || c < 0 )
-            cout << "impossible" << endl;
-        else cout << b << " " <<  c << endl;
+        if(deff > tot || (tot+deff)%2 != 0 || (tot-deff)%2 != 0 ) cout << "impossible" << endl;
+        else cout << (tot+deff)/2 << " " <<  (tot-deff)/2 << endl;
     }
 }
