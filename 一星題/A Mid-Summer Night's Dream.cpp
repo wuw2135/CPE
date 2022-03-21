@@ -29,9 +29,6 @@ int main()
                 if(c == arr[a/2]) count++;
             }
         }
-
-        
-
         cout << min << " " << count << " " << mid << endl;
     }
 }

@@ -9,12 +9,10 @@ int main()
     while(cases--){
         while(cin >> a >> b >> c){
             cout << a << " " << b << " " << c << endl;
-            char arr[a][b];
+            vector<string> arr;
             for(int i=0; i<a; i++){
                 cin >> str;
-                for(int j=0; j<b ;j++){         
-                    arr[i][j] = str[j];
-                }
+                arr.push_back(str);
             }
 
             while(c--){

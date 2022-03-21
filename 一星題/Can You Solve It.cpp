@@ -7,7 +7,7 @@ int main()
     cin >> a;
     for(int i=1;i<=a;i++){
         cin >> b >> c >> d >> e;
-        total = (((b+c+2)+d+e)*((d+e)-(b+c)-1))/2+c+(d+1); 
+        total = ((b+c+d+e+2)*((d+e)-(b+c)+1))/2-b-e-1; 
         cout << "Case " << i << ": " << total << endl;
     }
 }	
