@@ -3,25 +3,28 @@ using namespace std;
 
 int main()
 {	
-    long int i,j;
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    
+    long long int i,j;
+    vector<long long int> arr;
+    for(int i=1;i<1000000;i++){
+        long long int count=1,now=i;
+        while(now != 1){
+            if(now %2 == 1) now = 3*now+1;
+            else now = now/2;
+            count++;
+        }
+        arr.push_back(count);
+    }
+
     while(cin >> i >> j){
-        int max = 0;
+        long long int max = 0;
         cout << i << " " << j << " ";
         
-        if(i > j){
-            int sud = i;
-            i = j;
-            j = sud;
-        }
-
+        if(i>j) swap(i,j);
         for(;i<=j;i++){
-            long int count=1,now=i;
-            while(now != 1){
-                if(now %2 == 1) now = 3*now+1;
-                else now = now/2;
-                count++;
-            }
-            if(count > max) max = count;
+            if(arr[i-1] > max) max = arr[i-1];
         }
         cout << max << endl;
     }
