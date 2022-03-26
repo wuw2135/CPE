@@ -1,12 +1,14 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
-{	
-    long long int a,b,day;
-    while(cin >> a >> b){
+{
+    long long int a, b, day;
+    while (cin >> a >> b)
+    {
         day = 0;
-        while(day < b){
+        while (day < b)
+        {
             day += a;
             a++;
         }

@@ -1,9 +1,11 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main()
+{
     int a;
-    while(cin >> a){
-        cout << a+a/2 << endl;
+    while (cin >> a)
+    {
+        cout << a + a / 2 << endl;
     }
 }

@@ -1,35 +1,44 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
     int sum, mx, temp;
     string s;
-    while (getline(cin, s)){
+    while (getline(cin, s))
+    {
         sum = 0;
         mx = 1;
         int i;
-        for (i = 0; i < s.size(); i++) {
-            if (s[i] >= '0' && s[i] <= '9') {
+        for (i = 0; i < s.size(); i++)
+        {
+            if (s[i] >= '0' && s[i] <= '9')
+            {
                 temp = s[i] - '0';
             }
-            else if (s[i] >= 'A' && s[i] <= 'Z') {
+            else if (s[i] >= 'A' && s[i] <= 'Z')
+            {
                 temp = s[i] - 'A' + 10;
             }
-            else if (s[i] >= 'a' && s[i] <= 'z') {
+            else if (s[i] >= 'a' && s[i] <= 'z')
+            {
                 temp = s[i] - 'a' + 36;
             }
-            else continue;
- 
-            if (mx < temp) mx = temp; //有最大進位表示符號限制 ex. 8進位就只能表示0~7
+            else
+                continue;
+
+            if (mx < temp)
+                mx = temp; //有最大進位表示符號限制 ex. 8進位就只能表示0~7
             sum += temp;
         }
- 
+
         for (i = mx; i < 62; i++)
-            if (!(sum % i)) {
+            if (!(sum % i))
+            {
                 cout << i + 1 << "\n";
                 break;
             }
- 
+
         if (i == 62)
             cout << "such number is impossible!\n";
     }

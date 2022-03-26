@@ -1,18 +1,20 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
-{	
-	map<string,int> a;
+{
+    map<string, int> a;
     int b;
-    string c,temp;
+    string c, temp;
     cin >> b;
-    while(b--){
+    while (b--)
+    {
         cin >> c;
         a[c]++;
         getline(cin, c);
     }
-    for(const auto &p : a){
+    for (const auto &p : a)
+    {
         cout << p.first << " " << p.second << endl;
     }
 }
