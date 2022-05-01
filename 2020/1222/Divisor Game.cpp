@@ -10,6 +10,9 @@ int main()
 
     long int a, b;
     int max = 0, ans;
+    
+    //Divisor Generation: Sieve
+    //https://web.ntnu.edu.tw/~algo/Divisor.html
     for (long int i = 2; i <= 1000000; i++)
     {
         for (long int j = i; j <= 1000000; j += i)
