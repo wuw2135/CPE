@@ -7,6 +7,7 @@ int main()
     cin.tie(0);
 
     long long int a, b, c, biggest, deffmax;
+    
     cin >> a;
     while (a--)
     {

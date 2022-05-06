@@ -5,6 +5,7 @@ int main()
 {
     long long int a, b, c;
     vector<long long int> poly;
+    
     while (cin >> a)
     {
         poly.clear();

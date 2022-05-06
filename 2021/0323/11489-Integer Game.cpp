@@ -8,6 +8,7 @@ int main()
 
     string a;
     long long int sum, count, b, flag;
+    
     cin >> b;
     for (int t = 1; t <= b; t++)
     {

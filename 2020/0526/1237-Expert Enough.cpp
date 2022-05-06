@@ -11,6 +11,7 @@ int main()
     string mak, ans;
     string makarr[10001];
     long int pri[10001][3] = {0};
+
     cin >> a;
     for (int z = 0; z < a; z++)
     {

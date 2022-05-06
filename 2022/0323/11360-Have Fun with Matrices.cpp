@@ -9,6 +9,7 @@ int main()
     long long int a, b, c, d, e;
     string str, set;
     vector<string> arr;
+    
     cin >> a;
     for (int i = 1; i <= a; i++)
     {

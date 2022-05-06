@@ -11,6 +11,7 @@ int main()
     long long int b, c, d = 0, count;
     vector<long long int> pre;
     bool flag, first;
+
     while (cin >> a && a != "0")
     {
         count = 0;

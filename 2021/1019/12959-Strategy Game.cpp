@@ -7,6 +7,7 @@ int main()
     cin.tie(0);
 
     int a, b, c, max;
+    
     while (cin >> a >> b && a && b)
     {
         max = 0;

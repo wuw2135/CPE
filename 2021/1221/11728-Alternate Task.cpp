@@ -8,6 +8,7 @@ int main()
 
     int a, sum, flag, test = 1;
     vector<int> arr;
+    
     for (int i = 1; i <= 1000; i++)
     {
         sum = 0;

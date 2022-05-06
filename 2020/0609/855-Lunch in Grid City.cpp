@@ -9,6 +9,7 @@ int main()
 
     int a, ste, ave, fri, po1, po2, mid1, mid2;
     vector<int> po1arr, po2arr;
+    
     cin >> a;
     while (a--)
     {

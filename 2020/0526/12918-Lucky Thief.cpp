@@ -8,6 +8,7 @@ int main()
     cout.tie(nullptr);
 
     long long int a, b, c, d;
+    
     cin >> a;
     while (a--)
     {

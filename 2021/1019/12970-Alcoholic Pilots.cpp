@@ -7,6 +7,7 @@ int main()
     cin.tie(0);
 
     long long int a, b, c, d, i = 1, top, bm;
+    
     while (cin >> a >> b >> c >> d && a && b && c && d)
     {
         cout << "Case #" << i << ": ";

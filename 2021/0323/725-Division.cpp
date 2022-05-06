@@ -7,6 +7,7 @@ int main()
     cin.tie(0);
 
     int a, top, bm, flag = 0, count = 0;
+    
     while (cin >> a, a)
     {
         if (!count)

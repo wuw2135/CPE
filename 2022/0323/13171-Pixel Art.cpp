@@ -5,6 +5,7 @@ int main()
 {
     long int a, b, c, d, flag;
     string str;
+    
     cin >> a;
     while (a--)
     {

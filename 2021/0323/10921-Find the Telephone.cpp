@@ -5,6 +5,7 @@ int main()
 {
     map<char, int> mp;
     int num = 2, count = 1;
+    
     for (int i = 0; i < 26; i++)
     {
         if ('A' + i == 'S' || 'A' + i == 'Z')
