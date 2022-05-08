@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    long long int a, b, c;
-    vector<long long int> poly;
+    long int a, b, c;
+    vector<long int> poly;
     
     while (cin >> a)
     {

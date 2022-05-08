@@ -20,7 +20,7 @@ int main()
             c.push_back(stoi(ss));
         }
 
-        long long int pow = 1;
+        long int pow = 1;
         for (int i = c.size() - 2; i >= 0; i--)
         {
             total += c[i] * count * pow;

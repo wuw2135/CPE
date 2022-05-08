@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     string a;
-    long long int b, c, flag, flag2;
+    long int b, c, flag, flag2;
     while (cin >> a)
     {
         flag = 1;

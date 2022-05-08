@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    long long int total = 0, ind = 2, inp, tmp, a;
-    vector<long long int> fib = {0, 1};
+    long int total = 0, ind = 2, inp, tmp, a;
+    vector<long int> fib = {0, 1};
 
     while (total <= 100000000)
     {

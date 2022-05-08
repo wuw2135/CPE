@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-string ten_to_base(long long int a, int b)
+string ten_to_base(long int a, int b)
 {
     string c;
     while (a)

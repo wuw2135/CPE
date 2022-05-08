@@ -7,37 +7,45 @@ int main()
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    int a,count,cases = 1, now,word;
+    int a, count, cases = 1, now, word;
     string b;
-    vector<int> num('z'-'a'+1,0);
+    vector<int> num('z' - 'a' + 1, 0);
     bool flag;
-    
-    while(cin >> a){
-        count = 0;       
-        while(a--){
+
+    while (cin >> a)
+    {
+        count = 0;
+        while (a--)
+        {
             cin >> b;
             now = 0;
-            num.assign(num.size(),0);
-            for(char c: b) num[c-'a']++;
-            sort(num.begin(),num.end());
-            
+            num.assign(num.size(), 0);
+            for (char c : b)
+                num[c - 'a']++;
+            sort(num.begin(), num.end());
+
             word = 0;
-            for(int d : num){
+            for (int d : num)
+            {
                 flag = true;
-                if(d == 0) continue;
-                if(now != d) {
+                if (d == 0)
+                    continue;
+                if (now != d)
+                {
                     now = d;
                     word++;
                 }
-                else {
+                else
+                {
                     flag = false;
                     break;
                 }
             }
 
-            if(flag && word>=2) count++;
+            if (flag && word >= 2)
+                count++;
         }
 
-        cout << "Case " << cases++ << ": " << count << endl;       
+        cout << "Case " << cases++ << ": " << count << endl;
     }
 }

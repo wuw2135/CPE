@@ -10,7 +10,7 @@ int fun(int a)
 }
 int main()
 {
-    long long int a;
+    long int a;
     while (cin >> a, a)
     {
         cout << fun(a) << endl;

@@ -3,6 +3,10 @@ using namespace std;
 
 int main()
 {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    
     int a, b, ans;
     int bingo[5][5];
     bool flag;

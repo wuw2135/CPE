@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    long long int a, dist, flag, flag2, cur;
+    long int a, dist, flag, flag2, cur;
     vector<string> count;
     vector<int> mat;
     string dis, s;

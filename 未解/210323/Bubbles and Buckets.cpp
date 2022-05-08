@@ -8,7 +8,7 @@ int main()
 
     string a,b;
     int count;
-    vector<long long int> arr;
+    vector<long int> arr;
     while(getline(cin,a) && a != "0"){
         count = 0;
         istringstream st(a);

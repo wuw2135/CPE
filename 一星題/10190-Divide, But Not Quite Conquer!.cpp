@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    long long int a, b, first, flag;
-    vector<long long int> sto;
+    long int a, b, first, flag;
+    vector<long int> sto;
     while (cin >> a >> b)
     {
         sto.clear();
