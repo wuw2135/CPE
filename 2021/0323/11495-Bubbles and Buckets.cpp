@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-// merge sort
+
 int main()
 {
     ios::sync_with_stdio(false);
@@ -51,6 +51,7 @@ int main()
                 arr[j] = arr2[j];
         }
 
-        cout << count << endl;
+        if(count%2) cout << "Marcelo" << endl;
+        else cout << "Carlos" << endl;
     }
 }
