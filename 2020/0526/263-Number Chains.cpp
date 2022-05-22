@@ -8,8 +8,8 @@ int main()
     cout.tie(nullptr);
 
     string a;
-    long int b, c, d = 0, count;
-    vector<long int> pre;
+    long long int b, c, d = 0, count;
+    vector<long long int> pre;
     bool flag, first;
 
     while (cin >> a && a != "0")

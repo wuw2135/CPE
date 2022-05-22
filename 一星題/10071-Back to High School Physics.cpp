@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    long int a, b;
+    long long int a, b;
     while (cin >> a >> b)
     {
         cout << 2 * a * b << endl;

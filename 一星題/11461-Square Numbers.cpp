@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    long int a, b, total;
+    long long int a, b, total;
     while (cin >> a >> b, a, b)
     {
         int d = sqrt(a);

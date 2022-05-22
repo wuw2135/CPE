@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-    long int a, b, c;
-    vector<long int> poly;
-    
+    long long int a, b, c;
+    vector<long long int> poly;
+
     while (cin >> a)
     {
         poly.clear();

@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-    long int a, total, count;
+    long long int a, total, count;
     string b, ss;
-    vector<long int> c;
+    vector<long long int> c;
     while (cin >> a)
     {
         c.clear();
@@ -20,7 +20,7 @@ int main()
             c.push_back(stoi(ss));
         }
 
-        long int pow = 1;
+        long long int pow = 1;
         for (int i = c.size() - 2; i >= 0; i--)
         {
             total += c[i] * count * pow;

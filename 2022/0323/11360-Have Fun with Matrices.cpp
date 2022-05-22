@@ -6,10 +6,10 @@ int main()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
 
-    long int a, b, c, d, e;
+    long long int a, b, c, d, e;
     string str, set;
     vector<string> arr;
-    
+
     cin >> a;
     for (int i = 1; i <= a; i++)
     {

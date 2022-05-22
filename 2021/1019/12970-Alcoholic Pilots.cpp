@@ -6,8 +6,8 @@ int main()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
 
-    long int a, b, c, d, i = 1, top, bm;
-    
+    long long int a, b, c, d, i = 1, top, bm;
+
     while (cin >> a >> b >> c >> d && a && b && c && d)
     {
         cout << "Case #" << i << ": ";

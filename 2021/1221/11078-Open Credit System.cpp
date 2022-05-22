@@ -6,8 +6,8 @@ int main()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
 
-    long int a, b, c, biggest, deffmax;
-    
+    long long int a, b, c, biggest, deffmax;
+
     cin >> a;
     while (a--)
     {

@@ -10,7 +10,7 @@ int main()
     int a, b, c, low, high, count, buy;
     string mak, ans;
     string makarr[10001];
-    long int pri[10001][3] = {0};
+    long long int pri[10001][3] = {0};
 
     cin >> a;
     for (int z = 0; z < a; z++)

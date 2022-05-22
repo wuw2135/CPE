@@ -7,7 +7,7 @@ int nine(string x, int count)
         return count;
     else
     {
-        long int tran = 0;
+        long long int tran = 0;
         for (char a : x)
             tran += (a - '0');
         if (tran % 9 == 0)

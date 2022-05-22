@@ -7,8 +7,8 @@ int main()
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    long int a, b, count;
-    vector<long int> arr;
+    long long int a, b, count;
+    vector<long long int> arr;
 
     while (cin >> a && a)
     {
@@ -20,14 +20,14 @@ int main()
             arr.push_back(b);
         }
 
-        long int arr2[a];
-        for (long int i = 1; i < a; i += i)
+        long long int arr2[a];
+        for (long long int i = 1; i < a; i += i)
         {
-            for (long int j = 0; j < a; j += i + i)
+            for (long long int j = 0; j < a; j += i + i)
             {
-                long int start1 = j, end1 = min(j + i, a);
-                long int start2 = min(j + i, a), end2 = min(j + i + i, a);
-                long int n = j;
+                long long int start1 = j, end1 = min(j + i, a);
+                long long int start2 = min(j + i, a), end2 = min(j + i + i, a);
+                long long int n = j;
                 while (start1 < end1 && start2 < end2)
                 {
                     if (arr[start1] > arr[start2])
@@ -47,11 +47,13 @@ int main()
                     arr2[n++] = arr[start2++];
             }
 
-            for (long int j = 0; j < a; j++)
+            for (long long int j = 0; j < a; j++)
                 arr[j] = arr2[j];
         }
 
-        if(count%2) cout << "Marcelo" << endl;
-        else cout << "Carlos" << endl;
+        if (count % 2)
+            cout << "Marcelo" << endl;
+        else
+            cout << "Carlos" << endl;
     }
 }

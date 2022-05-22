@@ -7,8 +7,8 @@ int main()
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    long int a, b, c, d;
-    
+    long long int a, b, c, d;
+
     cin >> a;
     while (a--)
     {

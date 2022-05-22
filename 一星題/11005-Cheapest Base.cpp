@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    long int a, b, c, total, costinp, ctmp, smallest;
-    vector<long int> cost, totcost;
+    long long int a, b, c, total, costinp, ctmp, smallest;
+    vector<long long int> cost, totcost;
     while (cin >> a)
     {
         for (int i = 1; i <= a; i++)

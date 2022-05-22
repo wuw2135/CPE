@@ -8,20 +8,20 @@ int main()
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    long int a, b;
+    long long int a, b;
     int max = 0, ans;
-    
-    //Divisor Generation: Sieve
-    //https://web.ntnu.edu.tw/~algo/Divisor.html
-    for (long int i = 2; i <= 1000000; i++)
+
+    // Divisor Generation: Sieve
+    // https://web.ntnu.edu.tw/~algo/Divisor.html
+    for (long long int i = 2; i <= 1000000; i++)
     {
-        for (long int j = i; j <= 1000000; j += i)
+        for (long long int j = i; j <= 1000000; j += i)
         {
             arr[j]++;
         }
     }
 
-    for (long int i = 1; i <= 1000000; i++)
+    for (long long int i = 1; i <= 1000000; i++)
     {
         if (arr[i] >= max)
         {

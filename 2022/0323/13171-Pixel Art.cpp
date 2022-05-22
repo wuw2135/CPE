@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-    long int a, b, c, d, flag;
+    long long int a, b, c, d, flag;
     string str;
-    
+
     cin >> a;
     while (a--)
     {

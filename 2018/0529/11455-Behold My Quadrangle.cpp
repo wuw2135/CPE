@@ -7,7 +7,7 @@ int main()
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    long int test, a, b, c, d;
+    long long int test, a, b, c, d;
 
     cin >> test;
     while (test--)

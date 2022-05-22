@@ -6,11 +6,11 @@ int main()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
 
-    long int i, j;
-    vector<long int> arr;
+    long long int i, j;
+    vector<long long int> arr;
     for (int i = 1; i < 1000000; i++)
     {
-        long int count = 1, now = i;
+        long long int count = 1, now = i;
         while (now != 1)
         {
             if (now % 2 == 1)
@@ -24,7 +24,7 @@ int main()
 
     while (cin >> i >> j)
     {
-        long int max = 0;
+        long long int max = 0;
         cout << i << " " << j << " ";
 
         if (i > j)
