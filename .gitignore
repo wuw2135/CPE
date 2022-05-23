@@ -2,5 +2,5 @@
 /a.exe
 /input.txt
 /output.txt
-/.未解
-/.測試
+*.未解
+*.測試
