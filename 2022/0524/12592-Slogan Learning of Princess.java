@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class SloganLearningofPrincess{
+public class Main{
 	public static void main(String[] args){
 		Scanner keyin = new Scanner(System.in);
 		int rep = keyin.nextInt();
